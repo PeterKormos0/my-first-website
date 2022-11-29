@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "inter", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -88,6 +88,8 @@ body {
     font-size: 2rem;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
+
+    transition: background-color 0.3s;
 }
 
 .btn--full:link,
@@ -99,7 +101,6 @@ body {
 .btn--full:hover,
 .btn--full:active {
     background-color: #cf711f;
-    color: #fff;
 }
 
 .btn--outline:link,
@@ -119,3 +120,6 @@ body {
     width: 100%;
 }
 
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
