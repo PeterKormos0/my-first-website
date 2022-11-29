@@ -111,7 +111,7 @@ body {
 .btn--outline:hover,
 .btn--outline:active {
     background-color: #fdf2e9;
-    color: #555;
+    box-shadow: 0 0 0 3px #fff; 
 }
 
 
