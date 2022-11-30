@@ -6,11 +6,16 @@
 
 - font weights:
 Default: 400
+medium: 500
+semi-bold: 600
+bold: 700
 
 - line heights:
 Default: 1
+small 1.05
+paragraph dedafult1.6
 
-é SPACING SYSTEM (px)
+- SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 --- 02 COLORS
@@ -26,6 +31,8 @@ Default: 1
 --- 05 SHADOWS
 
 --- 06 BORDERS-RADIUS
+
+- Default 9px
 
 --- 07 WHITESPACE
 
@@ -121,6 +128,44 @@ body {
 
 }
 
+/***************************/
+/* NAVIGATION */
+/***************************/
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #e67e22;
+}
+ 
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: #cf711f;
+}
 /***************************/
 /* HERO SECTION */
 /***************************/
