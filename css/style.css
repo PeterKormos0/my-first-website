@@ -289,8 +289,23 @@
   width: 100%;
 }
 
+.all-recepies {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
 .list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .list-icon {
