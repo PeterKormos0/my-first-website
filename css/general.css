@@ -28,6 +28,7 @@ paragraph dedafult1.6
 - Primary:#e67e22
 - Tints: #fdf2e9;
 #fae5d3
+#eb984e
 - Shades:
 - Accents:
 - Greys:
@@ -35,6 +36,8 @@ paragraph dedafult1.6
 #333
 
 --- 05 SHADOWS
+
+ box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 06 BORDERS-RADIUS
 
