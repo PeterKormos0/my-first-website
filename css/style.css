@@ -1,174 +1,172 @@
 
-/***************************/
+/**************************/
 /* HEADER */
-/***************************/
+/**************************/
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fdf2e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
 
-    height: 9.6rem;
-    padding: 0 4.8rem;
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
 }
 
 .logo {
-    height: 2.2rem;
-
+  height: 2.2rem;
 }
 
-/***************************/
+/**************************/
 /* NAVIGATION */
-/***************************/
+/**************************/
 
 .main-nav-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 3.2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
-    display: inline-block;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    font-size: 1.8rem;
-    transition: all 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #cf711f;
+  color: #cf711f;
 }
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-    padding: 1.2rem 2.4rem;
-    border-radius: 9px;
-    color: #fff;
-    background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
 }
- 
+
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-    background-color: #cf711f;
+  background-color: #cf711f;
 }
-/***************************/
-/* HERO SECTION */
-/***************************/
-.section-hero {
-    background-color: #fdf2e9;
-    padding: 4.8rem 0 9.6rem 0;
-  }
-  
-  .hero {
-    max-width: 130rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-    align-items: center;
-  }
-  
-  .hero-description {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 4.8rem;
-  }
-  
-  .hero-img {
-    width: 100%;
-  }
-  
-  .delivered-meals {
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    margin-top: 8rem;
-  }
-  
-  .delivered-imgs {
-    display: flex;
-  }
-  
-  .delivered-imgs img {
-    height: 4.8rem;
-    width: 4.8rem;
-    border-radius: 50%;
-    margin-right: -1.6rem;
-    border: 3px solid #fdf2e9;
-  }
-  
-  .delivered-imgs img:last-child {
-    margin: 0;
-  }
-  
-  .delivered-text {
-    font-size: 1.8rem;
-    font-weight: 600;
-    
-  }
-  
-  .delivered-text span {
-    color: #cf711f;
-    font-weight: 700;
-  }
 
-/***************************/
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+/**************************/
 /* FEATURED IN SECTION */
-/***************************/
+/**************************/
 
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
 
-  .heading-featured-in {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.75px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 2.4rem;
-    color: #888;
-  }
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
 
-  .logos {
-    display: flex;
-    justify-content: space-around;
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
 
-  }
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
 
-  .logos img {
-    height: 3.2rem;
-    filter: brightness(0);
-    opacity: 50%;
-    /* filter: grayscale(100%); */
-  }
-/***************************/
+/**************************/
 /* HOW IT WORKS SECTION */
-/***************************/
+/**************************/
+
 .section-how {
-    padding: 9.6rem 0;
-  }
+  padding: 9.6rem 0;
+}
 
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
-
-
 }
-  
+
 .step-description {
   font-size: 1.8rem;
   line-height: 1.8;
 }
-
 
 .step-img-box {
   position: relative;
@@ -212,12 +210,12 @@
   /* z-index: 10; */
 }
 
-/***************************/
+/**************************/
 /* MEALS SECTION */
-/***************************/
+/**************************/
+
 .section-meals {
   padding: 9.6rem 0;
-
 }
 
 .meal {
@@ -229,11 +227,11 @@
 
 .meal:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.4rem 6.4rem rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
-  padding:  3.2rem 4.8rem 4.8rem 4.8rem;
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
 .meal-tags {
@@ -249,17 +247,15 @@
   text-transform: uppercase;
   color: #333;
   border-radius: 100px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .tag--vegetarian {
   background-color: #51cf66;
 }
-
 .tag--vegan {
   background-color: #94d82d;
 }
-
 .tag--paleo {
   background-color: #ffd43b;
 }
@@ -278,7 +274,7 @@
   gap: 2rem;
 }
 
-.meal-attribute{
+.meal-attribute {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -295,16 +291,15 @@
   width: 100%;
 }
 
-.all-recepies {
+.all-recipes {
   text-align: center;
   font-size: 1.8rem;
 }
 
+/**************************/
+/* TESTIMONIALS SECTION */
+/**************************/
 
-
-/***************************/
-/* TESTIMONILAS SECTION */
-/***************************/
 .section-testimonials {
   background-color: #fdf2e9;
   display: grid;
@@ -331,7 +326,7 @@
 
 .testimonial-text {
   font-size: 1.8rem;
-  line-height: 1.8; 
+  line-height: 1.8;
   margin-bottom: 1.6rem;
 }
 
@@ -361,49 +356,47 @@
   transform: scale(1.1);
 }
 
-/***************************/
-/* PRICING SECTION */
-/***************************/
+/**************************/
+/* MEALS SECTION */
+/**************************/
+
 .section-pricing {
   padding: 9.6rem 0;
-
 }
 
-.pricing-plan {
+.princing-plan {
   border-radius: 11px;
-  
+
   width: 75%;
 }
 
-
-.pricing-plan--starter {
+.princing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
 
-.pricing-plan--complete {
+.princing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
 
-.pricing-plan--complete::after {
- content: "Best value";
- position: absolute;
- top: 6%;
- right: -18%;
- 
- text-transform: uppercase;
- font-size: 1.4rem;
- font-weight: 700;
- color: #333;
- background-color: #ffd43b;
- padding: 0.8rem 8rem;
- transform: rotate(45deg);
-}
+.princing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
 
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
 
 .plan-header {
   text-align: center;
@@ -418,6 +411,7 @@
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }
+
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
@@ -437,7 +431,7 @@
   color: #6f6f6f;
 }
 
-.plan-sign-up {
+.plan-sing-up {
   text-align: center;
   margin-top: 4.8rem;
 }
@@ -457,14 +451,16 @@
   padding: 1.6rem;
   border-radius: 50%;
 }
+
 .feature-title {
   font-size: 2.4rem;
   color: #333;
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
+
 .feature-text {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.8;
 }
 
@@ -473,6 +469,10 @@
 /**************************/
 
 .section-cta {
+  /* top / right / bottom / left */
+  /* padding: 9.6rem 0 12.8rem 0; */
+
+  /* top / horizontal / left */
   padding: 4.8rem 0 12.8rem;
 }
 
@@ -551,9 +551,10 @@
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
-/***************************/
-/* FOOTER  */
-/***************************/
+/**************************/
+/* FOOTER */
+/**************************/
+
 .footer {
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
